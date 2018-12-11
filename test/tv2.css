@@ -1,0 +1,42 @@
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.meny {
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.boks, .boksMidt {
+    cursor: pointer;
+    float: left;
+    margin-top: 2.5%;
+    padding: 1%;
+}
+
+.boks {
+    width: 25%;
+}
+
+.boksMidt {
+    width: 50%;
+}
+
+.midt {
+    float: left;
+    width: 50%;
+    padding: 1%;
+}
+
+/* Bilder */
+img {
+    width: 100%;
+}
+
